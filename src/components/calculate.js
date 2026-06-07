@@ -1,6 +1,12 @@
 import { state } from "../../state"
 
 export function calculateResult() {
-    const result = eval(state.inputValue)
-    return result
+    if (!state.inputValue) return "";
+
+    try {
+        const result = Function(`"use strict"; return (${state.inputValue})`)();
+        return Number.isFinite(result) ? result : "Error";
+    } catch {
+        return "Error";
+    }
 }
