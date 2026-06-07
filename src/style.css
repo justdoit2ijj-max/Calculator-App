@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900');
+
+@import "tailwindcss";
+
+@theme {
+
+  --color-main-background: hsl(222, 26%, 31%);
+  --color-secondary-background: hsl(223, 31%, 20%);
+  --color-screen-background: hsl(224, 36%, 15%);
+
+  --color-main-key-background: hsl(225, 21%, 49%);
+  --color-main-key-shadow: hsl(224, 28%, 35%);
+
+  --color-toggle-key-background: hsl(6, 63%, 50%);
+  --color-toggle-key-shadow: hsl(6, 70%, 34%);
+  --color-toggle-key-hover: hsl(6, 93%, 67%);
+
+  --color-secondary-key-background: hsl(30, 25%, 89%);
+  --color-secondary-key-shadow: hsl(28, 16%, 65%);
+  --color-secondary-key-hover: hsl(0, 0%, 100%);
+  --color-main-key-hover: hsl(224, 51%, 76%);
+
+  --color-main: hsl(0, 100%, 100%);
+  --color-secondary: hsl(221, 14%, 31%);
+  --color-action-text: hsl(0, 100%, 100%);
+  --color-equal-text: hsl(0, 100%, 100%);
+
+  --font-league-spartan: "League Spartan", sans-serif;
+}
+
+.light {
+
+  --color-main-background: hsl(0, 0%, 90%);
+  --color-secondary-background: hsl(0, 5%, 81%);
+  --color-screen-background: hsl(0, 0%, 93%);
+
+  --color-main-key-background: hsl(185, 42%, 37%);
+  --color-main-key-shadow: hsl(185, 58%, 25%);
+
+  --color-toggle-key-background: hsl(25, 98%, 40%);
+  --color-toggle-key-shadow: hsl(25, 99%, 27%);
+  --color-toggle-key-hover: hsl(25, 100%, 61%);
+
+  --color-secondary-key-background: hsl(45, 7%, 89%);
+  --color-secondary-key-shadow: hsl(35, 11%, 61%);
+  --color-secondary-key-hover: hsl(0, 0%, 100%);
+  --color-main-key-hover: hsl(185, 41%, 56%);
+
+  --color-main: hsl(60, 10%, 19%);
+  --color-secondary: hsl(60, 10%, 19%);
+  --color-action-text: hsl(0, 100%, 100%);
+  --color-equal-text: hsl(0, 100%, 100%);
+}
+
+.purple {
+  --color-main-background: hsl(268, 75%, 9%);
+  --color-secondary-background: hsl(268, 71%, 12%);
+  --color-screen-background: hsl(268, 71%, 12%);
+
+  --color-main-key-background: hsl(281, 89%, 26%);
+  --color-main-key-shadow: hsl(285, 91%, 52%);
+
+  --color-toggle-key-background: hsl(176, 100%, 44%);
+  --color-toggle-key-shadow: hsl(177, 92%, 70%);
+  --color-toggle-key-hover: hsl(177, 100%, 79%);
+
+  --color-secondary-key-background: hsl(268, 47%, 21%);
+  --color-secondary-key-shadow: hsl(290, 70%, 36%);
+  --color-secondary-key-hover: hsl(268, 54%, 31%);
+  --color-main-key-hover: hsl(280, 56%, 44%);
+
+  --color-secondary: hsl(52, 100%, 62%);
+  --color-main: hsl(52, 100%, 62%);
+  --color-action-text: hsl(0, 100%, 100%);
+  --color-equal-text: hsl(198, 20%, 13%);
+}
